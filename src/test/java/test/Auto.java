@@ -16,6 +16,7 @@ public class Auto{
 				cantidad++;
 			}
 		}
+		return cantidad;
 	}
 
 	String verificarIntegridad(){
