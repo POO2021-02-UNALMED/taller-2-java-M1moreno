@@ -15,7 +15,7 @@ public class Motor{
 							  break;
 			case "gasolina": this.tipo = tipo;
 							 break;
-			default: System.out.println("No se cambió el tipo de motor");
+			default: System.out.println("No se cambio el tipo de motor");
 					 break;
 		}
 	}
