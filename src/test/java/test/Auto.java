@@ -10,7 +10,7 @@ public class Auto{
 	static int cantidadCreados;
 
 	int cantidadAsientos(){
-		int cantidad;
+		int cantidad = 0;
 		for (int i = 0; i < asientos.length; i++){
 			if (asientos[i] != null){
 				cantidad++;
