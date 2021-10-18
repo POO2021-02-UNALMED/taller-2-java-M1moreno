@@ -10,13 +10,18 @@ public class Auto{
 	static int cantidadCreados;
 
 	int cantidadAsientos(){
-		return asientos.length;
+		int cantidad;
+		for (int i = 0; i < asientos.length; i++){
+			if (asientos[i] != null){
+				cantidad++;
+			}
+		}
 	}
 
 	String verificarIntegridad(){
 		boolean integro = true;
 		for (int i = 0; i < asientos.length; i++){
-			if (asientos[i].registro != this.registro){
+			if ((asientos[i] != null) && (asientos[i].registro != this.registro)){
 				integro = false;
 			}
 		}
